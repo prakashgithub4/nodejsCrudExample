@@ -14,3 +14,8 @@ npx sequelize-cli init
 npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
 This will create model with some attribute given in this example
 
+# migrate table:-
+npx sequelize-cli db:migrate
+use to create new table in db
+
+
